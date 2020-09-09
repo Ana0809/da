@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.MeniuAdmin">
+        <children>
+      <Pane fx:id="pn_afiseaza" layoutX="242.0" layoutY="-2.0" prefHeight="415.0" prefWidth="359.0" style="-fx-background-color: FF00FF;">
+         <children>
+            <Pane fx:id="pn_pret" prefHeight="415.0" prefWidth="359.0" style="-fx-background-color: FFFF00;">
+               <children>
+                  <Pane fx:id="pn_adauga" layoutX="-8.0" layoutY="4.0" prefHeight="408.0" prefWidth="359.0" style="-fx-background-color: ccffcc;">
+                     <children>
+                        <Pane fx:id="pn_pret" layoutX="6.0" prefHeight="408.0" prefWidth="359.0" style="-fx-background-color: FF00FF;" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children></Pane>
+      <AnchorPane fx:id="pn_camere" prefHeight="161.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btnadauga" layoutY="56.0" mnemonicParsing="false" onAction="#Afiseaza" prefHeight="44.0" prefWidth="239.0" text="Adauga hotel" />
+            <AnchorPane prefHeight="56.0" prefWidth="239.0" style="-fx-background-color: ffccff;">
+               <children>
+                  <Label layoutX="84.0" layoutY="11.0" prefHeight="35.0" prefWidth="85.0" text="Meniu Admin" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="btncamere" layoutX="-1.0" layoutY="144.0" mnemonicParsing="false" onAction="#Afiseaza" prefHeight="44.0" prefWidth="239.0" text="Modifica disponibilitatea camerelor" />
+            <Button fx:id="afisare" layoutX="-1.0" layoutY="188.0" mnemonicParsing="false" onAction="#Afiseaza" prefHeight="35.0" prefWidth="239.0" text="Afiseaza Hotelurile" />
+            <Button fx:id="btnpret" layoutY="100.0" mnemonicParsing="false" onAction="#Afiseaza" prefHeight="44.0" prefWidth="239.0" text="Modifica pretul" />
+         </children>
+      </AnchorPane>
+        </children>
+    </AnchorPane>
